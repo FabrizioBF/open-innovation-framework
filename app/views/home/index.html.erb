@@ -1,0 +1,18 @@
+<h1><%= @welcome_message %> </h1>
+
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap">
+<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+<%= link_to image_tag("background3.png", width: '300px'),root_path %>
+  <p>
+  <cite>"Hard work beats talent when talent doesn't work hard".</cite>
+  </p>
+  
+ </main>
+</body>
+
+<%= link_to 'All Ideas', controller: 'reviews' %> <br/><br/>
+<%= link_to 'Add new idea', new_review_path %>
